@@ -12,3 +12,6 @@ _JAVA_OPTIONS='-Dsun.java2d.pmoffscreen=false' ./run-tests.py --lab 0 --debug 1 
 echo "export _JAVA_OPTIONS='-Dsun.java2d.xrender=false'" >> ~/.bashrc
 source ~/.bashrc
 ```
+
+sudo update-alternatives --set java /usr/lib/jvm/temurin-21-jdk-amd64/bin/java
+sudo update-alternatives --set javac /usr/lib/jvm/temurin-21-jdk-amd64/bin/javac
